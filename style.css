@@ -1,6 +1,7 @@
 
 body {
-  background: #D3BCC0;
+  /* background: #D3BCC0; */
+  background: #f5f0f0;
   margin: 0;
   padding: 30px;
   color:#0B0C2D;
@@ -33,11 +34,21 @@ ul {
     margin: 0;
     padding: 0;
 }
-li {
+.inline-list {
     display: inline;
     border-right: 2px solid #0B0C2D;
     padding-right: 7px;
 } 
+.job-list {
+    margin-top: 20px;
+    list-style-type: square;
+} 
 li:last-child {
     border-right: none;
-  
+}
+
+.inline-stuff {
+  display: inline;
+  margin-right: 50px;
+  margin-bottom: 200px;
+}
