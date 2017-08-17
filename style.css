@@ -1,0 +1,43 @@
+
+body {
+  background: #D3BCC0;
+  margin: 0;
+  padding: 30px;
+  color:#0B0C2D;
+  font-family: helvetica;
+}
+
+h1 {
+  color: #69306D;
+}
+
+h2 {
+  color: #A5668B;
+}
+
+hr {
+  border-top: 3px solid #69306D;
+}
+
+a {
+  color: #69306D;
+
+}
+
+img {
+	border: 3px solid #69306D;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    border-right: 2px solid #0B0C2D;
+    padding-right: 7px;
+} 
+li:last-child {
+    border-right: none;
+  
